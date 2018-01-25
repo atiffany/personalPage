@@ -5113,6 +5113,10 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-browser-router@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/react-browser-router/-/react-browser-router-2.0.5.tgz#46a9ebabc5e5f309787d71c0b8f6360ed7c6afb4"
+
 react-dev-utils@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.0.tgz#425ac7c9c40c2603bc4f7ab8836c1406e96bb473"
