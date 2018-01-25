@@ -1,0 +1,19 @@
+.image--container {
+    height: 40em;
+    flex-direction: column;
+    margin: auto;
+    padding: 4em;
+    
+}
+.carousel__item {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+.carousel__item--title {
+    font-size: 4em;
+}
+.carousel__item--image {
+    height: 10em;
+    margin: 1em auto;
+}

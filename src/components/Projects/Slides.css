@@ -1,0 +1,19 @@
+
+.slides {
+    flex: 1;
+    vertical-align: top;
+    height: 15em;
+    width: 20%;
+    margin: 3em;
+    padding: 2em;
+    border-right: .15em solid #CECECE;
+    white-space: normal;
+}
+.slides__image {
+    height: 3em;
+    margin: 3em auto;
+    padding: 0;
+}
+.slides:last-child {
+    border-right: none;
+}

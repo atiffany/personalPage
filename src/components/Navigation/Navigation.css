@@ -1,0 +1,22 @@
+.Navigation {
+    height: 2em;
+    background-color: #FFFFFF;
+    color: #575857;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin: 2em;
+    padding: 1em;
+    border-bottom: #CECECE .3em solid;
+}
+.Navigation--links {
+    display: inline;
+}
+.Navigation--links_item, a{
+    display: inline;
+    text-decoration: none;
+    color: #575857;
+    margin: 1.5em;
+}
+
+a:hover{
+    background-color: #CECECE;
+}

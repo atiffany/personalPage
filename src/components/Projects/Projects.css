@@ -1,0 +1,39 @@
+*, *:before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: black;
+}
+.carousel--container {
+margin: auto;
+display: flex;
+}
+
+.carousel__viewport {
+  -webkit-overflow-scrolling: touch;
+  flex-grow: 1;
+}
+
+.carousel__nav {
+  flex-basis: 15em;
+  flex-shrink: 0;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  padding: 0;
+  opacity: .8;
+  transition: opacity .2s ease-in-out;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+}
+
+.carousel__nav:hover {
+  background-color: #CECECE;
+  opacity: 1;
+}
+
+.slides--container {
+  display: flex;
+  flex-direction: row;
+}
