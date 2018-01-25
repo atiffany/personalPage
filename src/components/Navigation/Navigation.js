@@ -11,7 +11,7 @@ export default function Navigation () {
             <BrowserRouter>
                 <div className = "Navigation--links">
                     <div className = "Navigation--links_item">Abby Tiffany</div>
-                    <div className = "Navigation--links_item"><Link to="/projects">Projects</Link></div>                        
+                    <div className = "Navigation--links_item"><Link to="/">Projects</Link></div>                        
                     <div className = "Navigation--links_item"><Link to="/about">About Me</Link></div>
                     <div className = "Navigation--links_item"><Link to="/connect">Connect</Link></div>
                 </div>
