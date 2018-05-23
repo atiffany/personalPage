@@ -10,7 +10,7 @@
 .Navigation--links {
     display: inline;
 }
-.Navigation--links_item, a{
+.Navigation--links__item, a{
     display: inline;
     text-decoration: none;
     color: #575857;
@@ -19,4 +19,32 @@
 
 a:hover{
     background-color: #CECECE;
+}
+.Navigation--icon {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .Navigation {
+        border: none;
+        margin: 1em;
+        padding: 0;
+    }
+    .Navigation--links, .Navigation--links__item {
+        display: none;
+    }
+    .Navigation--links__clicked {
+        display: inline;
+    }
+    .Navigation--links__item__clicked {
+        display: block;
+		float: right;
+        clear: both;
+        margin: 0;
+        padding: 0.15em;
+    }
+    .Navigation--icon {
+        height: 1em;
+        display: block;
+        float: right;
+    }
 }

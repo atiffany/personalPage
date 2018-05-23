@@ -16,8 +16,7 @@ class App extends Component {
       <div className = "homepage">
           <BrowserRouter>
             <div>
-              <Route path="/" component={Navigation} />  
-              <Route path="/" component={Title} />           
+              <Route path="/" component={Navigation} />            
               <Route path="/about" component={AboutMe} />
               <Route exact path="/" exact component={Projects} />
               <Route path="/connect" component={Contact} />
