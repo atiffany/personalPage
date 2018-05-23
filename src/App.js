@@ -4,6 +4,7 @@ import {
   Route,
 } from 'react-browser-router';
 import Navigation from './components/Navigation/Navigation';
+import Title from './components/Navigation/Title';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
 import Projects from './components/Projects/Projects';
@@ -15,7 +16,8 @@ class App extends Component {
       <div className = "homepage">
           <BrowserRouter>
             <div>
-              <Route path="/" component={Navigation} />             
+              <Route path="/" component={Navigation} />  
+              <Route path="/" component={Title} />           
               <Route path="/about" component={AboutMe} />
               <Route exact path="/" exact component={Projects} />
               <Route path="/connect" component={Contact} />

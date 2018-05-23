@@ -9,7 +9,6 @@ class Slides extends React.Component {
         return (
             <div className = "slides">
                 <div>{this.props.name}</div>
-                <div>{this.props.text}</div>
                 <img className = "slides__image" src = {this.props.icon} alt="logo"/>
             </div>
         );
