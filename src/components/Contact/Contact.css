@@ -1,3 +1,15 @@
 .Wrapper {
     height: 800px;
 }
+
+.SpaceBetween {
+  margin-bottom: 2.5em;
+}
+
+.ContactImage {
+  height: "50";
+}
+
+.ContactImage:hover {
+  box-shadow: none;
+}

@@ -1,3 +1,18 @@
 .Wrapper {
     height: 800px;
 }
+
+.RoundedImage {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.CenteredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CenteredText {
+  text-align: center;
+}

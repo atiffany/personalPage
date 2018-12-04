@@ -17,7 +17,11 @@
     margin: 1.5em;
 }
 
-a:hover{
+.Navigation--links__clickable--item {
+  text-decoration: none;
+}
+
+.Navigation--links__clickable--item:hover{
     background-color: #CECECE;
 }
 .Navigation--icon {
