@@ -11,23 +11,23 @@ export default function Contact() {
 
         <div className = "CenteredText">
           <div className = "ContactImage SpaceBetween">
-          <a href = "mailto:abby.tiffany@gmail.com?Subject=Hello%20There">
+          <a href = "mailto:abby.tiffany@gmail.com?Subject=Hello%20There" target="_blank">
             <img src = {gmail}/>
           </a>
           </div>
 
           <div className = "ContactImage SpaceBetween">
-          <a href = "https://linkedin.com/in/abbytiffany">
+          <a href = "https://linkedin.com/in/abbytiffany" target="_blank">
             <img src = {linkedIn}/>
           </a>
           </div>
 
           <div className = "ContactImage SpaceBetween">
-          <a href = "https://github.com/atiffany">
+          <a href = "https://github.com/atiffany" target="_blank">
             <img src = {github}/>
           </a>
           </div>
-          
+
         </div>
       </div>
 
